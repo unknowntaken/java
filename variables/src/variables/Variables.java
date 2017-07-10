@@ -21,7 +21,8 @@ public class Variables {
         String lastName="Ngo";
         boolean isAStudent=true;
         System.out.println("My name is "+firstName+" "+lastName);
-        
+       
+               
     }
     
 }
