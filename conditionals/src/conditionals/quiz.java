@@ -66,6 +66,11 @@ public class quiz {
         else{
             System.out.println("good try");
         }
+        System.out.println("Who abolished slaver in America?");
+        String answer5 = keyboard.nextLine();
+        if (answer5.equals(Abraham Lincon)){
+            System.out.println("correct");
+    }
     }
     
 }
