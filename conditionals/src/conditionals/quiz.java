@@ -64,7 +64,7 @@ public class quiz {
            
         }
         else{
-            System.out.println
+            System.out.println("good try");
         }
     }
     
