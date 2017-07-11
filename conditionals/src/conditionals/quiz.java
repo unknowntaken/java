@@ -39,10 +39,33 @@ public class quiz {
         System.out.println("Your score is " + rightAnswers + " out of 1 question.");
         
         System.out.println("Can you say the Alphabet faster than me?");
-        String answer = keyboard.nextLine();
-        if (answer1.equals("the Alphabet"));
-        
-
+        String answer2 = keyboard.nextLine();
+        if (answer2.equals("the Alphabet")){
+            System.out.println("that is correct");
+            
+        }
+        else {
+            System.out.println("sucks for you.");
+        }
+        System.out.println("What is square root of 752?");
+        String anwser3 = keyboard.nextLine();
+        if (anwser3.equals(27.4)){
+            System.out.println("correct");
+            
+            
+        }
+        else{
+            System.out.println("better luck next time");
+        }
+        System.out.println("What city has the orental pearl?");
+        String anwser4 = keyboard.nextLine();
+        if (anwser4.equals(Shanghi)){
+            System.out.println("correct");
+           
+        }
+        else{
+            System.out.println
+        }
     }
     
 }
