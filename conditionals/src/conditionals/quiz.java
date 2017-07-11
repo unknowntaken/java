@@ -49,7 +49,7 @@ public class quiz {
         }
         System.out.println("What is square root of 752?");
         String anwser3 = keyboard.nextLine();
-        if (anwser3.equals(27.4)){
+        if (anwser3.equals("27.4")){
             System.out.println("correct");
             
             
@@ -59,7 +59,7 @@ public class quiz {
         }
         System.out.println("What city has the orental pearl?");
         String anwser4 = keyboard.nextLine();
-        if (anwser4.equals(Shanghi)){
+        if (anwser4.equals("Shanghi")){
             System.out.println("correct");
            
         }
@@ -68,9 +68,12 @@ public class quiz {
         }
         System.out.println("Who abolished slaver in America?");
         String answer5 = keyboard.nextLine();
-        if (answer5.equals(Abraham Lincon)){
+        if (answer5.equals("Abraham Lincon")){
             System.out.println("correct");
     }
+        else{
+            System.out.println("good try");
+        }
     }
     
 }
