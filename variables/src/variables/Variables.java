@@ -14,15 +14,68 @@ public class Variables {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        int age=14;
-        double height=5.9;
-        String firstName="Ethan";
-        String lastName="Ngo";
-        boolean isAStudent=true;
-        System.out.println("My name is "+firstName+" "+lastName);
+        int age;
+        double height;
+        String firstName;
+        String lastName;
+        boolean isAStudent;
+        String phoneNumber;
+
+        public Variables(String first, String last, String phone) {
+            firstName=first;
+            lastName=last;
+            phoneNumber=phone;
+        }
+        
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public boolean isIsAStudent() {
+        return isAStudent;
+    }
+
+    public void setIsAStudent(boolean isAStudent) {
+        this.isAStudent = isAStudent;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
        
                
     }
     
-}
+
